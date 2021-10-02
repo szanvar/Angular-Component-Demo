@@ -2,10 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { MarvellousComponent } from './marvellous/marvellous.component';
+import { InfosystemComponent } from './infosystem/infosystem.component';
+import { MiComponent } from './marvellous/mi/mi.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MarvellousComponent,
+    InfosystemComponent,
+    MiComponent
   ],
   imports: [
     BrowserModule
